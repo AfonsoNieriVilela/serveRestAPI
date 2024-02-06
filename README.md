@@ -11,11 +11,11 @@ Este repositório foi criado para o bootcamp de Teste de API Rest.
 - node version v18.16.1
 - newman v5.3.2
 - newman-reporter-html
-- 
+  
 ## Documentações
 - Analise Técnica: Analise/
 - Doc da API: [Consulte Swagger](https://serverest.dev/#/)
-- 
+  
 ## Como instalar o ambiente
 - Primeiro: instale o node em seu computador [baixe aqui](https://nodejs.org/en/download)
 - Segundo: realize a instalação do newman de forma global [baixe aqui a dependencia](https://www.npmjs.com/package/newman)
