@@ -2,49 +2,49 @@
 Postman course - api tests with newman and htmlextra
 
 # Bootcamp #01 Qualiters Club
-Teste de API Rest do manual a CI/CD
-## O que é
-Este repositório foi criado para o bootcamp de Teste de API Rest.
+Rest API testing from manual to CI/CD
+## What is it
+This repository was created for the Rest API Testing Bootcamp.
 
-## Tecnologias utilizadas
+## Technologies used
 - Postman versão web
 - node version v18.16.1
 - newman v5.3.2
 - newman-reporter-html
   
 ## Documentações
-- Analise Técnica: Analise/
-- Doc da API: [Consulte Swagger](https://serverest.dev/#/)
+- Technical Analysis: Analysis/
+- API doc: [Swagger](https://serverest.dev/#/)
   
-## Como instalar o ambiente
-- Primeiro: instale o node em seu computador [baixe aqui](https://nodejs.org/en/download)
-- Segundo: realize a instalação do newman de forma global [baixe aqui a dependencia](https://www.npmjs.com/package/newman)
+## How to set up the environment
+- First: install Node on your computer [download](https://nodejs.org/en/download)
+- Second: install Newman globally [download](https://www.npmjs.com/package/newman)
 ```
 npm install -g newman
 ```
-- Terceiro: realize a instalação da dependencia dos relatórios (opcional) [newman-reporter-html
+- Third: install the reporting dependency (optional) [newman-reporter-html
 ](https://www.npmjs.com/package/newman-reporter-html)
 ```
 npm install -g newman-reporter-html
 ```
-## Como rodar os testes
-### Pelo Postman web ou desktop
-- Import a collection e o environment
-- Execute os teste de forma manual ou automatizada
-### Pelo newman
-- Abra o console de preferência
-- Execute a seguinte linha de comando para rodar os testes
+## How to run the tests
+### Using Postman web or desktop
+-Import the collection and environment
+- Execute the tests manually or automated
+### Using newman
+- Open the preferred console
+- Execute the following command to run the tests
 ```
 newman run ServeRest.postman_collection.json -e serveRest_env.postman_environment.json -r cli
 ```
-- Execute os teste com relatório
+- Execute the tests with a report
 ```
 newman run ServeRest.postman_collection.json -e serveRest_env.postman_environment.json -r cli,htmlextra
 ```
 ### Report
-Se você optou por rodar os teste com o report htmlextra, você gerou um arquivo html com o resultado dos testes e para verificar as validações
+If you chose to run the tests with the HTMLExtra report, you generated an HTML file with the test results, and to verify the validations
 
-## Entre em contato
-email: afonsovilela.96@gmail.com
-redes socias: https://www.linkedin.com/in/afonso-vilela-4195b9190
+## Contact
+- email: afonsovilela.96@gmail.com
+- social networks: https://www.linkedin.com/in/afonso-vilela-4195b9190
 
