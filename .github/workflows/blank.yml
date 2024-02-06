@@ -1,4 +1,5 @@
 name: Newman Run
+
 on:
   push:
     branches:
@@ -6,9 +7,9 @@ on:
 jobs:
   newman:
     runs-on: ubuntu-latest
-      steps:
-        - uses: actions/checkout@v3
-        - name: Create dir
+    steps:
+      - uses: actions/checkout@v3
+      - name: Create dir
           run: |
             mkdir testArtifacts
 #Config environement
